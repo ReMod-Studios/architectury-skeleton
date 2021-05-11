@@ -41,3 +41,7 @@ The absolute bare-bones (badum psh) skeleton for ReMod Studios' Java Edition mod
 3. Update mod description and dependencies in both `<root>/forge/src/main/resources/META-INF/mods.toml` and `<root>/fabric/src/main/resources/fabric.mod.json`.
 
 ## In case if the mod is broken, but you can't quite figure it out
+Around 90% of the issues I asked in Architectury's Discord server are related to, if not directly caused by, incorrectly generated run configs.
+So before asking, please refresh your run configs by:
+   * IDEA: deleting all run configs and re-sync Gradle.
+   * Other IDEs: TODO
