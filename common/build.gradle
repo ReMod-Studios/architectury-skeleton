@@ -7,6 +7,9 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${rootProject.floader_version}"
     // Remove the next line if you don't want to depend on the API
     modApi "me.shedaniel:architectury:${rootProject.archapi_version}"
+
+    // Compile only to include the classes
+    modCompileOnly("io.github.remod-studios:remod-core-fabric:${rootProject.remodcore_version}")
 }
 
 architectury {
