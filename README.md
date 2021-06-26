@@ -38,6 +38,16 @@ The absolute bare-bones (badum psh) skeleton for ReMod Studios' Java Edition mod
           // ...
         }
         ```
+      * in `<root>/forge/src/main/resources/pack.mcmeta`
+        ```json5
+        {
+         {
+          "pack": {
+            "description": "Architectury Skeleton Resources",
+            "pack_format": 6
+          }
+        }
+        ```
 3. Update mod description and dependencies in both `<root>/forge/src/main/resources/META-INF/mods.toml` and `<root>/fabric/src/main/resources/fabric.mod.json`.
 
 ## In case if the mod is broken, but you can't quite figure it out
