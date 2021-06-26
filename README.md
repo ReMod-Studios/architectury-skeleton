@@ -38,7 +38,7 @@ The absolute bare-bones (badum psh) skeleton for ReMod Studios' Java Edition mod
           // ...
         }
         ```
-      * in `<root>/forge/src/main/resources/pack.mcmeta`
+    * in `<root>/forge/src/main/resources/pack.mcmeta`
         ```json5
         {
          {
